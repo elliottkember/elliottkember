@@ -1,1 +1,1 @@
-![Elliott's GitHub stats](https://github-readme-stats.vercel.app/api?username=elliottkember&show_icons=true&theme=radical)
+![Elliott's GitHub stats](https://github-readme-stats.vercel.app/api?username=elliottkember&show_icons=true)
