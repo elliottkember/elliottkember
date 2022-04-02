@@ -25,9 +25,9 @@ jobs:
           committer_token: ${{ secrets.GITHUB_TOKEN }}
 
           # Options
-          user: esatterwhite
+          user: elliottkember
           template: classic
           base: ""
           config_timezone: ${{ secrets.USER_TIMEZONE }}
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          plugin_isocalendar_duration: full-year
