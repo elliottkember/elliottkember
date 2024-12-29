@@ -1,5 +1,4 @@
 name: Metrics
-runs-on: ubuntu-latest-8-cores
 on:
   # Schedule daily updates
   schedule: [{ cron: '0 0 * * *' }]
