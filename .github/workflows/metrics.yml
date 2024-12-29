@@ -1,4 +1,5 @@
 name: Metrics
+runs-on: ubuntu-latest-8-cores
 on:
   # Schedule daily updates
   schedule: [{ cron: '0 0 * * *' }]
@@ -14,6 +15,10 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_languages_indepth: no
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          config_timezone: Pacific/Auckland
   iso_calender:
     runs-on: ubuntu-latest
     steps:
@@ -33,3 +38,4 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
           plugin_languages_indepth: no
+          config_timezone: Pacific/Auckland
